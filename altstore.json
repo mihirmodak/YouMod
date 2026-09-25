@@ -1,0 +1,94 @@
+{
+  "name": "YouMod",
+  "subtitle": "A YouTube tweak that recreates YTLite's features as closely as possible.",
+  "description": "AltStore source for YouMod — a lightweight YouTube enhancer for iOS and iPadOS.\n\nYouMod adds downloading, appearance and player customization, tab bar reordering, built-in SponsorBlock, and much more. Originally created by Tonwalter888; IPA builds are produced by jaydenjcpy.",
+  "iconURL": "https://raw.githubusercontent.com/mihirmodak/YouMod/master/Icon.png",
+  "website": "https://github.com/mihirmodak/YouMod",
+  "tintColor": "#940208",
+  "featuredApps": [
+    "com.google.ios.youtube"
+  ],
+  "apps": [
+    {
+      "name": "YouMod",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "developerName": "Tonwalter888",
+      "subtitle": "A lightweight YouTube enhancer",
+      "localizedDescription": "A tweak that tries to recreate features like in YTLite as much as possible, plus alternative tweaks combined.\n\nFeatures:\n- Downloading (video, audio, captions, thumbnails, video details, and more — currently up to 1080p60)\n- Appearance (OLED theme and keyboard)\n- Navigation bar (hide buttons, sticky nav bar, custom logo)\n- Player (hide elements and buttons, add custom actions)\n- Shorts (hide elements, add custom actions, download button)\n- Tab bar (reorder tabs, hide elements)\n- Built-in SponsorBlock\n- Copy video, comment and post information\n- And much more!\n\nBundled tweaks: YouPiP, YTUHD, Return YouTube Dislikes, YTABConfig, DontEatMyContent, YTweaks, YouSlider.\n\nYouMod preferences can be found in the YouTube settings.",
+      "iconURL": "https://raw.githubusercontent.com/mihirmodak/YouMod/master/Icon.png",
+      "tintColor": "#940208",
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
+          "com.apple.developer.declared-age-range",
+          "com.apple.developer.device-information.user-assigned-device-name",
+          "com.apple.developer.group-session",
+          "com.apple.developer.networking.multicast",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.siri",
+          "com.apple.developer.storekit.request-data",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.developer.usernotifications.time-sensitive",
+          "com.apple.security.application-groups",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "This lets you create videos using the app.",
+          "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites.",
+          "NSBluetoothPeripheralUsageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices.",
+          "NSLocalNetworkUsageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV.",
+          "NSAppleMusicUsageDescription": "This lets you add your own audio files to your videos.",
+          "NSMicrophoneUsageDescription": "This lets you include audio with your videos and search using your voice.",
+          "NSLocationWhenInUseUsageDescription": "This enables local content discovery, improved recommendations, and enhanced search results.",
+          "NSContactsUsageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with.",
+          "NSPhotoLibraryUsageDescription": "This lets you upload media you've already created."
+        }
+      },
+      "versions": [
+        {
+          "version": "21.37.4",
+          "minOSVersion": "17.0",
+          "date": "2026-09-14T14:53:38Z",
+          "size": 130338267,
+          "downloadURL": "https://github.com/jaydenjcpy/YouMod/releases/download/youmod-ipa35/YouMod_21.37.4_v2.0.0.ipa",
+          "localizedDescription": "YouMod v2.0.0\n\n- Updated to YouTube 21.37.4"
+        },
+        {
+          "version": "21.36.6",
+          "minOSVersion": "17.0",
+          "date": "2026-09-08T14:45:11Z",
+          "size": 124398773,
+          "downloadURL": "https://github.com/jaydenjcpy/YouMod/releases/download/youmod-ipa34/YouMod_21.36.6_v2.0.0.ipa",
+          "localizedDescription": "YouMod v2.0.0\n\n- Updated to YouTube 21.36.6"
+        },
+        {
+          "version": "21.35.3",
+          "minOSVersion": "17.0",
+          "date": "2026-08-30T17:01:45Z",
+          "size": 129008054,
+          "downloadURL": "https://github.com/jaydenjcpy/YouMod/releases/download/youmod-ipa32/YouMod_21.35.3_v2.0.ipa",
+          "localizedDescription": "YouMod v2.0.0\n\n- Updated to YouTube 21.35.3\n- NOTE: starting from this YouTube version, iOS 16 is no longer supported"
+        },
+        {
+          "version": "21.34.3",
+          "minOSVersion": "16.0",
+          "date": "2026-08-25T10:39:24Z",
+          "size": 128545201,
+          "downloadURL": "https://github.com/jaydenjcpy/YouMod/releases/download/youmod-ipa31/YouMod_21.34.3_v2.0.0.ipa",
+          "localizedDescription": "YouMod v2.0.0\n\n- Updated to YouTube 21.34.3\n- Last build that supports iOS 16"
+        },
+        {
+          "version": "21.33.6",
+          "minOSVersion": "16.0",
+          "date": "2026-08-23T09:08:38Z",
+          "size": 122092084,
+          "downloadURL": "https://github.com/jaydenjcpy/YouMod/releases/download/youmod-ipa28/YouMod_21.33.6_v2.0.0.ipa",
+          "localizedDescription": "YouMod v2.0.0\n\nThis release focuses on fixes, improvements, and adding a lot of new features to the tweak.\n\n- Downloading: fixed videos that could not be saved to Photos, new progress dialog, download button in Shorts, more thumbnail options, copy comment and post info\n- Navigation bar: sticky navigation bar option, more logo image options\n- Appearance: fixed OLED theme not applying in some places, fixed colors not updating immediately\n- Feed: fixed new types of ads not being removed, options to hide horizontal shelves\n- Updated to YouTube 21.33.6"
+        }
+      ]
+    }
+  ]
+}
